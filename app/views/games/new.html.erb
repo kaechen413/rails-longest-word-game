@@ -2,7 +2,7 @@
   <h1>New game</h1>
   <div class="container d-flex">
   <% @letters.each do |letter| %>
-    <div class="card">
+    <div class="card flex-grow-1 justify-content-center align-items-center" style="width: 30px; height: 40px;">
       <%= letter %>
     </div>
   <% end %>

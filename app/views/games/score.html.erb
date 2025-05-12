@@ -1,0 +1,9 @@
+<div class="container">
+<h1>Result</h1>
+
+<div class="card">
+<h3><%= @result[:message] %></h3>
+<div class="text-end">Total score: <%=  session[:score] %></div>
+</div>
+<%= link_to "Play again", new_path, class: "btn btn-primary"  %>
+</div>
